@@ -213,7 +213,7 @@ class Swiper extends Component {
       });
     }
 
-    return Animated.event([null, this.createAnimatedEvent()])(
+    return Animated.event([null, this.createAnimatedEvent()], {})(
       event,
       gestureState
     );
